@@ -6,7 +6,6 @@
 
 <title>Shameem Beauty at Home | Marathahalli</title>
 
-
 <meta name="description" content="Professional ladies beauty services at home in Marathahalli, Bangalore. Bridal makeup, hairstyling, facial, waxing and saree draping available.">
 <meta name="robots" content="index, follow">
 
@@ -50,7 +49,6 @@ font-weight:600;
 color:#444;
 }
 
-
 /* NAVBAR */
 
 nav{
@@ -76,7 +74,7 @@ font-weight:bold;
 
 .hero{
 height:90vh;
-background:url("https://images.unsplash.com/photo-1487412912498-0447578fcca8") center/cover no-repeat;
+background:url("images/hero-bg.webp") center/cover no-repeat;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -114,7 +112,7 @@ margin-bottom:25px;
 /* BUTTON */
 
 .btn{
-background:#ff4d6d;
+background:#d63384; /* Increased contrast for accessibility compliance */
 padding:12px 25px;
 border-radius:30px;
 text-decoration:none;
@@ -126,7 +124,7 @@ transition:0.3s;
 }
 
 .btn:hover{
-background:#d63384;
+background:#ff4d6d;
 transform:scale(1.05);
 }
 
@@ -175,7 +173,7 @@ gap:15px;
 
 .gallery img{
 width:100%;
-height:100%;
+height:auto;
 aspect-ratio:4/5;
 object-fit:cover;
 border-radius:10px;
@@ -210,13 +208,14 @@ text-align:center;
 position:fixed;
 bottom:20px;
 left:20px;
-background:#ff4d6d;
+background:#d63384;
 color:white;
 padding:16px;
 border-radius:50%;
 font-size:24px;
 text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
 }
 
 .whatsapp{
@@ -230,6 +229,7 @@ border-radius:50%;
 font-size:24px;
 text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
 }
 
 .instagram{
@@ -243,6 +243,7 @@ border-radius:50%;
 font-size:24px;
 text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
 }
 
 </style>
@@ -262,34 +263,21 @@ box-shadow:0 5px 15px rgba(0,0,0,0.3);
 </div>
 </nav>
 
+<main>
+
 <section class="hero">
-
 <div class="hero-content">
-
 <h1>Beauty Services at Home</h1>
-
 <p>Professional Ladies Beauty Services in Marathahalli</p>
-
 <a class="btn" href="tel:+918867856478">📞 Call Now</a>
-
-<a class="btn"
-href="https://wa.me/918867856478?text=Hello%20I%20want%20beauty%20service"
-target="_blank">💬 WhatsApp</a>
-
-<a class="btn"
-href="https://www.instagram.com/shameembeautyhome/"
-target="_blank">📷 Instagram</a>
-
+<a class="btn" href="https://wa.me/918867856478?text=Hello%20I%20want%20beauty%20service" target="_blank">💬 WhatsApp</a>
+<a class="btn" href="https://www.instagram.com/shameembeautyhome/" target="_blank">📷 Instagram</a>
 </div>
-
 </section>
 
 <section class="section" id="services">
-
 <h2>Our Beauty Services</h2>
-
 <div class="grid">
-
 <div class="card">💄 Bridal Makeup</div>
 <div class="card">✨ Party Makeup</div>
 <div class="card">🌸 Facial</div>
@@ -298,103 +286,64 @@ target="_blank">📷 Instagram</a>
 <div class="card">✂️ Threading</div>
 <div class="card">💇 Hair Styling</div>
 <div class="card">👗 Saree Draping</div>
-
 </div>
-
 </section>
 
 <section class="section">
-
 <h2>Why Choose Us</h2>
-
 <div class="grid">
-
 <div class="card">⭐ Experienced Beautician</div>
 <div class="card">🧼 Hygienic Products</div>
 <div class="card">💰 Affordable Price</div>
 <div class="card">🏠 Home Service Convenience</div>
-
 </div>
-
 </section>
 
 <section class="section" id="prices">
-
 <h2>Affordable Price Range</h2>
-
 <div class="grid">
-
 <div class="card">Bridal Makeup — ₹3000–₹8000</div>
 <div class="card">Party Makeup — ₹1200–₹2000</div>
 <div class="card">Facial — ₹800–₹2000</div>
 <div class="card">Cleanup — ₹300–600</div>
 <div class="card">Waxing — From ₹300</div>
 <div class="card">Saree Draping — ₹250</div>
-
 </div>
-
 <p style="margin-top:20px;font-size:14px">
 Final price depends on service type and products used.
 </p>
-
 </section>
 
 <section class="section" id="gallery">
-
 <h2>Gallery</h2>
-
 <div class="gallery">
-
-<img src="images/bridal-hairstyle1.jpeg" alt="Bridal Hairstyle in Marathahalli Bangalore" loading="lazy">
-
-<img src="images/bridal-hairstyle2.jpeg" alt="Traditional Bridal Braid Hairstyle Bangalore" loading="lazy">
-
-<img src="images/bridal-hairstyle3.jpeg" alt="Reception Hairstyle for Saree Bangalore" loading="lazy">
-
+<img src="images/bridal-hairstyle1.jpeg" alt="Bridal Hairstyle in Marathahalli Bangalore" width="400" height="500" loading="lazy">
+<img src="images/bridal-hairstyle2.jpeg" alt="Traditional Bridal Braid Hairstyle Bangalore" width="400" height="500" loading="lazy">
+<img src="images/bridal-hairstyle3.jpeg" alt="Reception Hairstyle for Saree Bangalore" width="400" height="500" loading="lazy">
 </div>
-
 </section>
 
 <section class="section" id="location">
-
 <h2>Our Location</h2>
-
 <p>📍 Shameem Beauty at Home – Marathahalli, Bengaluru</p>
-
-<iframe
-src="https://www.google.com/maps?q=Marathahalli+Bangalore&output=embed"
-class="map"
-loading="lazy">
-</iframe>
-
+<iframe title="Map showing Shameem Beauty at Home service area in Marathahalli" src="https://www.google.com/maps?q=Marathahalli+Bangalore&output=embed" class="map" loading="lazy"></iframe>
 </section>
 
 <section class="section" id="contact">
-
 <h2>Book Appointment</h2>
-
 <p>Call or WhatsApp to book beauty service at home.</p>
-
 <a class="btn" href="tel:+918867856478">📞 Call Now</a>
-
-<a class="btn"
-href="https://wa.me/918867856478?text=Hello%20I%20want%20beauty%20service"
-target="_blank">💬 WhatsApp</a>
-
-<a class="btn"
-href="https://www.instagram.com/shameembeautyhome/"
-target="_blank">📷 Follow us on Instagram</a>
-
+<a class="btn" href="https://wa.me/918867856478?text=Hello%20I%20want%20beauty%20service" target="_blank">💬 WhatsApp</a>
+<a class="btn" href="https://www.instagram.com/shameembeautyhome/" target="_blank">📷 Follow us on Instagram</a>
 <p style="margin-top:20px">
 Service Areas: Marathahalli • Brookefield • Whitefield • Kundalahalli
 </p>
-
 </section>
 
+</main>
+
 <footer>
-
 <p>© 2026 Shameem Beauty at Home</p>
-
 </footer>
 
 <a href="tel:+918867856478" class="call">📞</a>
